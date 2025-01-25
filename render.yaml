@@ -9,5 +9,5 @@ services:
     
 cronJobs:
   - name: daily-linkedin-post
-    schedule: "12 17 * * *"  # This runs every day at 5:12 PM UTC
+    schedule: "22 17 * * *"  # This runs every day at 5:12 PM UTC
     command: "python main.py"
