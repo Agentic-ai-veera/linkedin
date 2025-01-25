@@ -15,7 +15,7 @@ print(f"API Key present: {'GOOGLE_API_KEY' in os.environ}")
 # Initialize LLM
 my_llm = LLM(
     api_key=os.getenv("GOOGLE_API_KEY"),
-    model="gemini/gemini-pro",
+    model="gemini/gemini-2.0-flash-exp",
     temperature=0.7
 )
 
